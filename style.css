@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Film P3";
+    src: url(../fonts-filmp3/FilmP3Bold.woff2) format(woff2);
+}
+  
+*,
+*::after, *::before {
+    box-sizing: border-box;
+}
+  
+html {
+    overflow-x: hidden;
+}
+  
+  
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+  
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-page-section {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(./back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+
+.home-page-container {
+    width: 414px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home-page-logo {
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.home-page-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    position: relative;
+    left: 169px;
+}
+
+.home-page-text {
+    width: 243px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #bababa;
+    margin-left: 32px;
+}
+
+.home-page-group1 {
+    padding-bottom: 48px;
+}
+
+
+
+
+.home-page-group2 {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 32px;
+}
+
+.home-page-list {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 294px;
+}
+
+
+
+.home-page-icon-wrap {
+    position: absolute;
+    top: 249px;
+    right: 40px;
+    display: flex;
+    gap: 32px;
+}
+
+.home-page-button1 {
+    display: inline-block;
+    min-width: 236px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 14px 24px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #F3C653;
+    margin-top: 32px;
+}
+
+.home-page-button2 {
+    display: inline-block;
+    min-width: 236px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 14px 37px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #F3C653;
+}
+
+.home-page-button1:hover,
+.home-page-button1:focus,
+.home-page-button1:active {
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
+}
+
+.home-page-button2:hover,
+.home-page-button2:focus,
+.home-page-button2:active {
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
+}
+
+.home-page-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.home-page-icon1,
+.home-page-icon2 {
+    fill: #FFFFFF;
+}
+
+.home-page-icon1 {
+    margin-right: 33px;
+}
+
+@media  screen and (max-width:413px) {
+    .home-page-container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .home-page-container {
+        width: 414px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .home-page-section {
+        padding-top: 48px;
+    }
+
+
+    .home-page-container {
+        width: 960px;
+    }
+
+    .home-page-logo {
+        width: 202px;
+        position: relative;
+        left: 497px;
+        font-size: 64px;
+        line-height: 1.07;
+    }
+
+    .home-page-title {
+        position: relative;
+        left: 612px;
+        width: 87px;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .home-page-text {
+        width: 549px;
+        position: relative;
+        left: 150px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .home-page-list {
+        position: relative;
+        left: 0;
+    }
+
+    .home-page-icon-wrap {
+        position: absolute;
+        right: 342px;
+    }
+
+    .home-page-group2 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .home-page-btn-wrap {
+        position: relative;
+        padding-top: 150px;
+    }
+}
+
+
+@media screen and (min-width:1280px) {
+    .home-page-scetion {
+        padding-top: 48px;
+    }
+
+    .home-page-container {
+        width: 1140px;
+    }
+
+    .home-page-logo {
+        position: relative;
+        left: 655px;
+    }
+
+    .home-page-title {
+        position: relative;
+        left: 755px;
+    }
+
+    .home-page-text {
+        width: 595px;
+        position: relative;
+        left: 262px;
+    }
+
+    .home-page-list {
+        gap: 105px;
+    }
+
+    .home-page-group3 {
+        position: absolute;
+        right: 85px;
+        bottom: 107px;
+    }
+
+    .home-page-icon-wrap {
+        position: absolute;
+        right: 390px;
+    }
+}
